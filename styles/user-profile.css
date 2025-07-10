@@ -1,0 +1,22 @@
+.user-profile-icon {
+  width: 41px;
+  height: 41px;
+}
+
+.profile-icon {
+  background: transparent;
+  border: transparent;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+}

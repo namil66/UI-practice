@@ -1,0 +1,33 @@
+:root {
+  --continue-watching-1: #09bcd8;
+  --continue-watching-2: #056372;
+}
+
+.continue-watching-wrapper {
+  width: 1440px;
+  height: 388px;
+  border: 1px solid crimson;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  list-style: none;
+  padding-inline: 59px;
+  padding-block: 38px;
+
+  background: radial-gradient(
+    var(--continue-watching-1),
+    var(--continue-watching-2)
+  );
+
+  li {
+    width: 180px;
+    height: 270px;
+  }
+}
+
+.bg-with-title-content {
+  padding: 0;
+}
+
+.watching-title {
+}
