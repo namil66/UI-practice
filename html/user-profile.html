@@ -8,14 +8,43 @@
   </head>
   <body>
     <div class="user-profile-icon">
-      <button class="profile-icon" type="button">
+      <a
+        href="#"
+        class="profile-icon"
+        title="내 정보"
+        rel="noopenner noreferrer"
+      >
+        <!-- 사용자의 닉네임이 들어갈 공간 -->
+        <span class="user-name" aria-label="사용자 닉네임">Gee</span>
+
+        <!-- 사용자의 프로필 아이콘 -->
         <img
           width="41"
           height="41"
           src="./../assets/profile/gee-avif.avif"
           alt="사용자 지정 프로필 아이콘"
         />
-      </button>
+      </a>
+      <!-- 상태 버튼 -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="14"
+        height="14"
+        viewBox="0 0 14 14"
+        fill="none"
+      >
+        <circle
+          cx="7"
+          cy="7"
+          r="7"
+          fill="#FF2929"
+          style="
+            fill: #ff2929;
+            fill: color(display-p3 1 0.161 0.161);
+            fill-opacity: 1;
+          "
+        />
+      </svg>
     </div>
   </body>
 </html>

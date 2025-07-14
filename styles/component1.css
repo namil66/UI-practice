@@ -25,9 +25,28 @@
   }
 }
 
+a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .bg-with-title-content {
   padding: 0;
 }
 
-.watching-title {
+.young-sheldon-title {
+  position: relative;
+  bottom: 60px;
+}
+
+.bigbang-theory-title {
+  position: relative;
+  bottom: 60px;
+}
+
+.buffy-title {
+  position: relative;
+  bottom: 60px;
 }
